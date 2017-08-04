@@ -1,0 +1,65 @@
+<idea-plugin>
+    <id>com.wkp.utils</id>
+    <name>Utils</name>
+    <version>1.0</version>
+    <vendor email="wkp15889686524@gmail.com" url="https://github.com/wkp111">WKP</vendor>
+
+    <description><![CDATA[
+      Plugin to general some utils class.<br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      no change.<br>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <internalFileTemplate name="ViewHolder"/>
+        <internalFileTemplate name="SpUtil"/>
+        <internalFileTemplate name="CommonUtil"/>
+        <internalFileTemplate name="GZipUtil"/>
+        <internalFileTemplate name="GeometryUtil"/>
+        <internalFileTemplate name="MyLogger"/>
+        <internalFileTemplate name="BigDecimalUtil"/>
+    </extensions>
+
+    <actions>
+        <group id="CreateUtil.CreateUtilGroup" class="com.wkp.utils.group.CreateUtilGroup" text="Android Utils Class"
+               popup="true" icon="/icons/group.png">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+
+            <action id="CreateUtil.CreateCommonUtilAction" class="com.wkp.utils.action.CreateCommonUtilAction"
+                    text="CommonUtil Class"
+                    description="Create a CommonUtil Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateSpUtilAction" class="com.wkp.utils.action.CreateSpUtilAction" text="SpUtil Class"
+                    description="Create a SpUtil Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateViewHolderAction" class="com.wkp.utils.action.CreateViewHolderAction" text="ViewHolder Class"
+                    description="Create a ViewHolder Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateGZipUtilAction" class="com.wkp.utils.action.CreateGZipUtilAction" text="GZipUtil Class"
+                    description="Create a GZipUtil Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateGeometryUtilAction" class="com.wkp.utils.action.CreateGeometryUtilAction" text="GeometryUtil Class"
+                    description="Create a GeometryUtil Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateMyLoggerAction" class="com.wkp.utils.action.CreateMyLoggerAction" text="MyLogger Class"
+                    description="Create a MyLogger Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateBigDecimalUtilAction" class="com.wkp.utils.action.CreateBigDecimalUtilAction" text="BigDecimalUtil Class"
+                    description="Create a BigDecimalUtil Class" icon="/icons/action.png">
+            </action>
+        </group>
+    </actions>
+</idea-plugin>
