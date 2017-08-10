@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.wkp.utils</id>
     <name>Utils</name>
-    <version>1.0</version>
+    <version>1.2</version>
     <vendor email="wkp15889686524@gmail.com" url="https://github.com/wkp111">WKP</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      no change.<br>
+      Please support some utils class for me, Thank you!.<br>
+      Add some utils class.<br>
     ]]>
     </change-notes>
 
@@ -30,6 +31,22 @@
         <internalFileTemplate name="GeometryUtil"/>
         <internalFileTemplate name="MyLogger"/>
         <internalFileTemplate name="BigDecimalUtil"/>
+        <internalFileTemplate name="PackageUtils"/>
+        <internalFileTemplate name="FileUtils"/>
+        <internalFileTemplate name="ResourceUtils"/>
+        <internalFileTemplate name="StringUtils"/>
+        <internalFileTemplate name="ParcelUtils"/>
+        <internalFileTemplate name="RandomUtils"/>
+        <internalFileTemplate name="ArrayUtils"/>
+        <internalFileTemplate name="ImageUtils"/>
+        <internalFileTemplate name="ListUtils"/>
+        <internalFileTemplate name="MapUtils"/>
+        <internalFileTemplate name="ObjectUtils"/>
+        <internalFileTemplate name="SerializeUtils"/>
+        <internalFileTemplate name="SystemUtils"/>
+        <internalFileTemplate name="TimeUtils"/>
+        <internalFileTemplate name="ShellUtils"/>
+        <internalFileTemplate name="AppUtils"/>
     </extensions>
 
     <actions>
@@ -58,6 +75,54 @@
             </action>
             <action id="CreateUtil.CreateBigDecimalUtilAction" class="com.wkp.utils.action.CreateBigDecimalUtilAction" text="BigDecimalUtil Class"
                     description="Create a BigDecimalUtil Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreatePackageUtilsAction" class="com.wkp.utils.action.CreatePackageUtilsAction" text="PackageUtils Class"
+                    description="Create a PackageUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateFileUtilsAction" class="com.wkp.utils.action.CreateFileUtilsAction" text="FileUtils Class"
+                    description="Create a FileUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateResourceUtilsAction" class="com.wkp.utils.action.CreateResourceUtilsAction" text="ResourceUtils Class"
+                    description="Create a ResourceUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateStringUtilsAction" class="com.wkp.utils.action.CreateStringUtilsAction" text="StringUtils Class"
+                    description="Create a StringUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateParcelUtilsAction" class="com.wkp.utils.action.CreateParcelUtilsAction" text="ParcelUtils Class"
+                    description="Create a ParcelUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateRandomUtilsAction" class="com.wkp.utils.action.CreateRandomUtilsAction" text="RandomUtils Class"
+                    description="Create a RandomUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateArrayUtilsAction" class="com.wkp.utils.action.CreateArrayUtilsAction" text="ArrayUtils Class"
+                    description="Create a ArrayUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateImageUtilsAction" class="com.wkp.utils.action.CreateImageUtilsAction" text="ImageUtils Class"
+                    description="Create a ImageUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateListUtilsAction" class="com.wkp.utils.action.CreateListUtilsAction" text="ListUtils Class"
+                    description="Create a ListUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateMapUtilsAction" class="com.wkp.utils.action.CreateMapUtilsAction" text="MapUtils Class"
+                    description="Create a MapUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateObjectUtilsAction" class="com.wkp.utils.action.CreateObjectUtilsAction" text="ObjectUtils Class"
+                    description="Create a ObjectUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateSerializeUtilsAction" class="com.wkp.utils.action.CreateSerializeUtilsAction" text="SerializeUtils Class"
+                    description="Create a SerializeUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateSystemUtilsAction" class="com.wkp.utils.action.CreateSystemUtilsAction" text="SystemUtils Class"
+                    description="Create a SystemUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateTimeUtilsAction" class="com.wkp.utils.action.CreateTimeUtilsAction" text="TimeUtils Class"
+                    description="Create a TimeUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateShellUtilsAction" class="com.wkp.utils.action.CreateShellUtilsAction" text="ShellUtils Class"
+                    description="Create a ShellUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateAppUtilsAction" class="com.wkp.utils.action.CreateAppUtilsAction" text="AppUtils Class"
+                    description="Create a AppUtils Class" icon="/icons/action.png">
             </action>
         </group>
     </actions>
