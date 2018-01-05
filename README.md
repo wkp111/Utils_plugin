@@ -2,10 +2,12 @@
 Android Studio快速创建常用工具类的插件<br>
 ## 插件集成方式<br>
 > 导入Utils.jar<br>
-* 下载：
-<a href="https://d1n3kg4j1bkixe.cloudfront.net/files/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download Utils-v1.3</a>
+* 下载：<br/>
+<a href="https://d1n3kg4j1bkixe.cloudfront.net/files/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download Utils-v1.3</a><br/>
 <a href="https://d1n3kg4j1bkixe.cloudfront.net/files/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download Utils-v1.2</a>
+<br/>
 <a href="https://d1n3kg4j1bkixe.cloudfront.net/files/9898/37562/Utils.jar?updateId=37562&pluginId=9898">Download Utils-v1.1</a>
+<br/>
 <a href="https://d1n3kg4j1bkixe.cloudfront.net/files/9898/37505/Utils.jar?updateId=37505&pluginId=9898">Download Utils-v1.0</a>
 <br/><br/>
 * 步骤：File --> Settings --> Plugins --> Install plugin from disk... --> Utils.jar --> Apply --> Restart Android Studio
