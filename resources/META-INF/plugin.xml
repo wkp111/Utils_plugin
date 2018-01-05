@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.wkp.utils</id>
     <name>Utils</name>
-    <version>1.2</version>
+    <version>1.3</version>
     <vendor email="wkp15889686524@gmail.com" url="https://github.com/wkp111">WKP</vendor>
 
     <description><![CDATA[
@@ -47,6 +47,8 @@
         <internalFileTemplate name="TimeUtils"/>
         <internalFileTemplate name="ShellUtils"/>
         <internalFileTemplate name="AppUtils"/>
+        <internalFileTemplate name="BitmapUtils"/>
+        <internalFileTemplate name="KeyboardUtils"/>
     </extensions>
 
     <actions>
@@ -54,8 +56,7 @@
                popup="true" icon="/icons/group.png">
             <add-to-group group-id="NewGroup" anchor="first"/>
 
-            <action id="CreateUtil.CreateCommonUtilAction" class="com.wkp.utils.action.CreateCommonUtilAction"
-                    text="CommonUtil Class"
+            <action id="CreateUtil.CreateCommonUtilAction" class="com.wkp.utils.action.CreateCommonUtilAction" text="CommonUtil Class"
                     description="Create a CommonUtil Class" icon="/icons/action.png">
             </action>
             <action id="CreateUtil.CreateSpUtilAction" class="com.wkp.utils.action.CreateSpUtilAction" text="SpUtil Class"
@@ -123,6 +124,12 @@
             </action>
             <action id="CreateUtil.CreateAppUtilsAction" class="com.wkp.utils.action.CreateAppUtilsAction" text="AppUtils Class"
                     description="Create a AppUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateBitmapUtilsAction" class="com.wkp.utils.action.CreateBitmapUtilsAction" text="BitmapUtils Class"
+                    description="Create a BitmapUtils Class" icon="/icons/action.png">
+            </action>
+            <action id="CreateUtil.CreateKeyboardUtilsAction" class="com.wkp.utils.action.CreateKeyboardUtilsAction" text="KeyboardUtils Class"
+                    description="Create a KeyboardUtils Class" icon="/icons/action.png">
             </action>
         </group>
     </actions>
