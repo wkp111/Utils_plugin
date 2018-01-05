@@ -1,7 +1,9 @@
-# Utils_plugin   <a href="https://download.plugins.jetbrains.com/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download v1.3</a>
+# Utils_plugin   
 Android Studio快速创建常用工具类的插件<br>
 ## 插件集成方式<br>
 > 导入Utils.jar<br>
+* 下载：
+<a href="https://download.plugins.jetbrains.com/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download v1.2</a><br/>
 * 步骤：File --> Settings --> Plugins --> Install plugin from disk... --> Utils.jar --> Apply --> Restart Android Studio<br><br>
 * 步骤图解：<br>
 ![UtilStep](https://github.com/wkp111/Utils_plugin/blob/master/utils.gif "步骤图") <br><br>
