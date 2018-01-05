@@ -1,5 +1,5 @@
 # Utils_plugin 
-<a href="https://download.plugins.jetbrains.com/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download 1.2</a><br/>
+<a href="https://download.plugins.jetbrains.com/9898/37688/Utils.jar?updateId=37688&pluginId=9898">Download v1.3</a><br/>
 Android Studio快速创建常用工具类的插件<br>
 ## 插件集成方式<br>
 > 导入Utils.jar<br>
