@@ -26,3 +26,27 @@ Note：最新版本最全。<br/><br/>
 * qqEmail ：1535514884@qq.com<br>
 * gmail   ：wkp15889686524@gmail.com<br>
 * 163Email：15889686524@163.com
+## 版本更新
+* v1.3<br/>
+新增工具类.<br/><br/>
+* v1.2<br/>
+新增工具类.<br/><br/>
+* v1.1<br/>
+解决部分工具类生成报错的BUG.<br/><br/>
+* v1.0<br/>
+新创建Utils插件.
+## License
+
+   Copyright 2017 wkp
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
